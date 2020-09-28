@@ -1,0 +1,13 @@
+import { PipeTransform } from '@angular/core';
+import { CalendarEvent } from 'calendar-utils';
+import { CalendarEventTitleFormatter } from './calendar-event-title-formatter.provider';
+import * as ɵngcc0 from '@angular/core';
+export declare class CalendarEventTitlePipe implements PipeTransform {
+    private calendarEventTitle;
+    constructor(calendarEventTitle: CalendarEventTitleFormatter);
+    transform(title: string, titleType: string, event: CalendarEvent): string;
+    static ɵfac: ɵngcc0.ɵɵFactoryDef<CalendarEventTitlePipe, never>;
+    static ɵpipe: ɵngcc0.ɵɵPipeDefWithMeta<CalendarEventTitlePipe, "calendarEventTitle">;
+}
+
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiY2FsZW5kYXItZXZlbnQtdGl0bGUucGlwZS5kLnRzIiwic291cmNlcyI6WyJjYWxlbmRhci1ldmVudC10aXRsZS5waXBlLmQudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7QUFDQTtBQUNBOztBQUNBO0FBQ0E7QUFDQTtBQUNBOzs7QUFDQSIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IFBpcGVUcmFuc2Zvcm0gfSBmcm9tICdAYW5ndWxhci9jb3JlJztcbmltcG9ydCB7IENhbGVuZGFyRXZlbnQgfSBmcm9tICdjYWxlbmRhci11dGlscyc7XG5pbXBvcnQgeyBDYWxlbmRhckV2ZW50VGl0bGVGb3JtYXR0ZXIgfSBmcm9tICcuL2NhbGVuZGFyLWV2ZW50LXRpdGxlLWZvcm1hdHRlci5wcm92aWRlcic7XG5leHBvcnQgZGVjbGFyZSBjbGFzcyBDYWxlbmRhckV2ZW50VGl0bGVQaXBlIGltcGxlbWVudHMgUGlwZVRyYW5zZm9ybSB7XG4gICAgcHJpdmF0ZSBjYWxlbmRhckV2ZW50VGl0bGU7XG4gICAgY29uc3RydWN0b3IoY2FsZW5kYXJFdmVudFRpdGxlOiBDYWxlbmRhckV2ZW50VGl0bGVGb3JtYXR0ZXIpO1xuICAgIHRyYW5zZm9ybSh0aXRsZTogc3RyaW5nLCB0aXRsZVR5cGU6IHN0cmluZywgZXZlbnQ6IENhbGVuZGFyRXZlbnQpOiBzdHJpbmc7XG59XG4iXX0=
